@@ -3163,285 +3163,7 @@ brew install make                  # macOS
 <hr />
 <p><strong>You&rsquo;re all set! Happy learning! 🚀</strong></p>
 <p>Start with: <code>make demo-01_singleton</code></p>` },
-  { name: `8. Summary`, path: `SUMMARY.md`, dir: ``, body: `<h1 id="complete-summary---design-patterns-in-c">Complete Summary - Design Patterns in C++</h1>
-<h2 id="-whats-included">📊 What&rsquo;s Included</h2>
-<h3 id="-gang-of-four-patterns-23">🎨 Gang of Four Patterns (23)</h3>
-<p>Complete implementation of all classic design patterns:
-- <strong>5 Creational</strong> - Object creation mechanisms
-- <strong>7 Structural</strong> - Object composition and relationships
-- <strong>11 Behavioral</strong> - Communication between objects</p>
-<h3 id="-advanced-patterns-new">🚀 Advanced Patterns (NEW!)</h3>
-<p>Modern C++ patterns and principles:
-- <strong>5 SOLID Principles</strong> - Fundamental OOP design principles
-- <strong>8+ Modern C++ Patterns</strong> - CRTP, SFINAE, Type Erasure, PIMPL, etc.</p>
-<h3 id="-bonus-content">📚 Bonus Content</h3>
-<ul>
-<li><strong>Iterator Types Guide</strong> - Complete C++ STL iterator categories</li>
-<li><strong>Comprehensive Documentation</strong> - 8 documentation files</li>
-<li><strong>Build System</strong> - Full Makefile automation</li>
-</ul>
-<h2 id="-directory-structure">📁 Directory Structure</h2>
-<pre><code>design_patterns_cpp/
-├── README.md
-├── INDEX.md
-├── QUICKSTART.md
-├── COMPILE_AND_RUN.md
-├── PATTERN_SUMMARY.md
-├── TEST_RESULTS.md
-├── ITERATOR_TYPES_GUIDE.md
-├── SUMMARY.md (this file)
-├── Makefile
-│
-├── creational/ (5 patterns)
-├── structural/ (7 patterns)
-├── behavioral/ (12 files - 11 patterns + iterator types)
-└── advanced_patterns/ (NEW! SOLID + Modern C++)
-</code></pre>
-<h2 id="-statistics">📈 Statistics</h2>
-<ul>
-<li><strong>Total Pattern Files:</strong> 26+</li>
-<li><strong>Lines of Code:</strong> ~10,000+</li>
-<li><strong>Examples:</strong> 80+ real-world scenarios</li>
-<li><strong>Documentation:</strong> 8+ comprehensive guides</li>
-<li><strong>Test Coverage:</strong> 100% - all patterns tested</li>
-</ul>
-<h2 id="-testing-status">✅ Testing Status</h2>
-<pre><code>╔════════════════════════════════════════════╗
-║  COMPLETE TEST STATUS                      ║
-╠════════════════════════════════════════════╣
-║  GoF Patterns:        23/23  (100%)  ✅   ║
-║  Advanced Patterns:    2/2   (100%)  ✅   ║
-║  Iterator Guide:       1/1   (100%)  ✅   ║
-║  Total:               26/26  (100%)  ✅   ║
-╠════════════════════════════════════════════╣
-║  Compilation:         SUCCESS         ✅   ║
-║  Execution:           SUCCESS         ✅   ║
-║  Documentation:       COMPLETE        ✅   ║
-╚════════════════════════════════════════════╝
-</code></pre>
-<h2 id="-quick-navigation">🎯 Quick Navigation</h2>
-<h3 id="for-beginners">For Beginners</h3>
-<p>Start here for easy-to-understand patterns:
-1. <code>creational/01_singleton.cpp</code>
-2. <code>creational/02_factory_method.cpp</code>
-3. <code>structural/01_adapter.cpp</code>
-4. <code>behavioral/08_strategy.cpp</code>
-5. <code>behavioral/06_observer.cpp</code></p>
-<p>Then learn principles:
-6. <code>advanced_patterns/01_solid_srp.cpp</code></p>
-<h3 id="for-intermediate-developers">For Intermediate Developers</h3>
-<p>Study these for deeper understanding:
-- All creational patterns
-- All structural patterns
-- Command, State, Template Method patterns
-- SOLID principles
-- CRTP pattern</p>
-<h3 id="for-advanced-developers">For Advanced Developers</h3>
-<p>Master these for expert-level knowledge:
-- Visitor, Interpreter patterns
-- All SOLID principles
-- CRTP, SFINAE, Type Erasure
-- Policy-Based Design
-- Expression Templates</p>
-<h2 id="-getting-started">🚀 Getting Started</h2>
-<h3 id="1-quick-test-everything">1. Quick Test Everything</h3>
-<pre><code class="language-bash">cd /tmp/design_patterns_cpp
-make test
-</code></pre>
-<h3 id="2-try-a-pattern">2. Try a Pattern</h3>
-<pre><code class="language-bash">make demo-01_singleton
-make demo-06_observer
-make demo-solid_srp
-make demo-crtp
-</code></pre>
-<h3 id="3-explore-by-category">3. Explore by Category</h3>
-<pre><code class="language-bash">make test-creational
-make test-structural
-make test-behavioral
-make test-advanced
-</code></pre>
-<h2 id="-learning-resources-included">📖 Learning Resources Included</h2>
-<h3 id="main-documentation">Main Documentation</h3>
-<ul>
-<li><code>README.md</code> - Overview and getting started</li>
-<li><code>INDEX.md</code> - Complete file index and descriptions</li>
-<li><code>QUICKSTART.md</code> - 5-minute quick start guide</li>
-<li><code>COMPILE_AND_RUN.md</code> - Compilation instructions</li>
-<li><code>PATTERN_SUMMARY.md</code> - Quick reference table</li>
-<li><code>TEST_RESULTS.md</code> - Test status and results</li>
-<li><code>ITERATOR_TYPES_GUIDE.md</code> - C++ iterator categories</li>
-<li><code>SUMMARY.md</code> - This file</li>
-</ul>
-<h3 id="pattern-specific">Pattern-Specific</h3>
-<ul>
-<li>Each <code>.cpp</code> file has extensive comments</li>
-<li>When to use / when NOT to use</li>
-<li>Pros and cons clearly listed</li>
-<li>Multiple real-world examples</li>
-<li>Key takeaways section</li>
-</ul>
-<h2 id="-what-youll-learn">🎓 What You&rsquo;ll Learn</h2>
-<h3 id="design-patterns-gof">Design Patterns (GoF)</h3>
-<ul>
-<li>✅ All 23 Gang of Four patterns</li>
-<li>✅ When and how to apply each pattern</li>
-<li>✅ Trade-offs and alternatives</li>
-<li>✅ Real-world applications</li>
-</ul>
-<h3 id="modern-c-patterns">Modern C++ Patterns</h3>
-<ul>
-<li>✅ CRTP for compile-time polymorphism</li>
-<li>✅ SFINAE for template metaprogramming  </li>
-<li>✅ Type Erasure for flexibility</li>
-<li>✅ PIMPL for compilation firewall</li>
-<li>✅ RAII for resource safety</li>
-</ul>
-<h3 id="design-principles">Design Principles</h3>
-<ul>
-<li>✅ SOLID principles explained</li>
-<li>✅ How they relate to patterns</li>
-<li>✅ Practical applications</li>
-<li>✅ Code examples</li>
-</ul>
-<h3 id="c-specifics">C++ Specifics</h3>
-<ul>
-<li>✅ STL iterator categories</li>
-<li>✅ Smart pointers usage</li>
-<li>✅ Move semantics</li>
-<li>✅ Template techniques</li>
-<li>✅ Modern C++17 features</li>
-</ul>
-<h2 id="-key-features">💡 Key Features</h2>
-<h3 id="code-quality">Code Quality</h3>
-<ul>
-<li>✅ Modern C++17 standard</li>
-<li>✅ Smart pointers (unique_ptr, shared_ptr)</li>
-<li>✅ RAII principles</li>
-<li>✅ Const correctness</li>
-<li>✅ No raw new/delete</li>
-</ul>
-<h3 id="educational-value">Educational Value</h3>
-<ul>
-<li>✅ 3-4 examples per pattern</li>
-<li>✅ Progressive complexity</li>
-<li>✅ Clear, commented code</li>
-<li>✅ Practical scenarios</li>
-<li>✅ Comparison between similar patterns</li>
-</ul>
-<h3 id="build-system">Build System</h3>
-<ul>
-<li>✅ Comprehensive Makefile</li>
-<li>✅ Individual pattern compilation</li>
-<li>✅ Category-based testing</li>
-<li>✅ Automated full test suite</li>
-<li>✅ Colored output</li>
-<li>✅ Statistics generation</li>
-</ul>
-<h2 id="-pattern-catalog">🔍 Pattern Catalog</h2>
-<h3 id="creational-5">Creational (5)</h3>
-<p>Creating objects effectively:
-- Singleton, Factory Method, Abstract Factory, Builder, Prototype</p>
-<h3 id="structural-7">Structural (7)</h3>
-<p>Composing objects:
-- Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy</p>
-<h3 id="behavioral-11">Behavioral (11)</h3>
-<p>Object interaction:
-- Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor, Interpreter</p>
-<h3 id="advanced">Advanced</h3>
-<p>Modern C++ techniques:
-- SOLID (5 principles), CRTP, SFINAE, Type Erasure, PIMPL, RAII, Policy-Based Design, Expression Templates</p>
-<h2 id="-use-cases-by-domain">🛠️ Use Cases by Domain</h2>
-<h3 id="enterprise-applications">Enterprise Applications</h3>
-<ul>
-<li>Strategy, Factory, Singleton, Observer, Command</li>
-<li>SOLID principles, Dependency Injection</li>
-</ul>
-<h3 id="game-development">Game Development</h3>
-<ul>
-<li>State, Command, Object Pool, Flyweight, Prototype</li>
-<li>CRTP, Expression Templates</li>
-</ul>
-<h3 id="embedded-systems">Embedded Systems</h3>
-<ul>
-<li>CRTP (no virtual functions), RAII, Singleton</li>
-<li>Flyweight, State Machine</li>
-</ul>
-<h3 id="libraries--frameworks">Libraries &amp; Frameworks</h3>
-<ul>
-<li>PIMPL, Type Erasure, Policy-Based Design</li>
-<li>Abstract Factory, Builder, Visitor</li>
-</ul>
-<h3 id="high-performance-computing">High-Performance Computing</h3>
-<ul>
-<li>CRTP, Expression Templates, Flyweight</li>
-<li>Policy-Based Design, SFINAE</li>
-</ul>
-<h2 id="-complexity-levels">📊 Complexity Levels</h2>
-<h3 id="easy-beginner-friendly">Easy (Beginner-Friendly)</h3>
-<ul>
-<li>Singleton, Factory Method, Adapter, Strategy, Observer</li>
-</ul>
-<h3 id="medium-intermediate">Medium (Intermediate)</h3>
-<ul>
-<li>Builder, Decorator, Composite, Command, State</li>
-<li>Single Responsibility Principle</li>
-</ul>
-<h3 id="advanced-expert-level">Advanced (Expert-Level)</h3>
-<ul>
-<li>Abstract Factory, Bridge, Flyweight, Visitor, Interpreter</li>
-<li>CRTP, SFINAE, Expression Templates</li>
-</ul>
-<h2 id="-what-makes-this-collection-special">🎉 What Makes This Collection Special</h2>
-<ol>
-<li><strong>Complete Coverage</strong> - All GoF + Modern C++</li>
-<li><strong>Production Ready</strong> - All tested and working</li>
-<li><strong>Educational Focus</strong> - Designed for learning</li>
-<li><strong>Modern C++</strong> - C++17 with best practices</li>
-<li><strong>Real Examples</strong> - Practical, relatable code</li>
-<li><strong>Full Documentation</strong> - 8+ comprehensive guides</li>
-<li><strong>Build Automation</strong> - Complete Makefile</li>
-<li><strong>Bonus Content</strong> - SOLID, CRTP, Iterator types</li>
-</ol>
-<h2 id="-next-steps">🚀 Next Steps</h2>
-<ol>
-<li>✅ Run <code>make test</code> to verify everything works</li>
-<li>📚 Read <code>QUICKSTART.md</code> for 5-minute intro</li>
-<li>🎯 Start with easy patterns (Singleton, Strategy)</li>
-<li>📈 Progress to advanced patterns</li>
-<li>💻 Apply patterns in your own projects</li>
-<li>🔄 Review and practice regularly</li>
-</ol>
-<h2 id="-maintenance">📝 Maintenance</h2>
-<h3 id="all-patterns">All Patterns</h3>
-<ul>
-<li>✅ Compile with C++17</li>
-<li>✅ Run to completion</li>
-<li>✅ No memory leaks</li>
-<li>✅ Fully documented</li>
-<li>✅ Tested and verified</li>
-</ul>
-<h3 id="requirements">Requirements</h3>
-<ul>
-<li>GCC 7.0+ or Clang 5.0+</li>
-<li>C++17 support</li>
-<li>Make (for build automation)</li>
-<li>Linux, macOS, or Windows (MinGW)</li>
-</ul>
-<h2 id="-conclusion">🌟 Conclusion</h2>
-<p>This is a <strong>comprehensive, production-ready collection</strong> of design patterns in C++. Whether you&rsquo;re learning patterns for the first time or looking for a reference implementation, this collection provides everything you need.</p>
-<p><strong>Total Value:</strong>
-- 26+ pattern implementations
-- 80+ working examples
-- 10,000+ lines of code
-- 8+ documentation files
-- Complete build system
-- 100% test coverage</p>
-<hr />
-<p><strong>Status:</strong> ✅ PRODUCTION READY<br />
-<strong>Version:</strong> Complete Collection with Advanced Patterns<br />
-<strong>Last Updated:</strong> November 25, 2025<br />
-<strong>Test Status:</strong> 26/26 PASS (100%)</p>` },
-  { name: `9. Test Results`, path: `TEST_RESULTS.md`, dir: ``, body: `<h1 id="-test-results---all-patterns-verified">✅ Test Results - All Patterns Verified</h1>
+  { name: `8. Test Results`, path: `TEST_RESULTS.md`, dir: ``, body: `<h1 id="-test-results---all-patterns-verified">✅ Test Results - All Patterns Verified</h1>
 <p><strong>Date:</strong> November 25, 2025<br />
 <strong>Status:</strong> 🎉 <strong>ALL TESTS PASSING</strong></p>
 <h2 id="-summary">📊 Summary</h2>
@@ -3794,7 +3516,7 @@ make demo-08_strategy
 </code></pre>
 <p><strong>Last Tested:</strong> November 25, 2025<br />
 <strong>Result:</strong> 23/23 PASS ✅</p>` },
-  { name: `10. Advanced Patterns / Solid Srp`, path: `advanced_patterns/01_solid_srp.cpp`, dir: `advanced_patterns`, body: `<h1 id="01_solid_srpcpp">01_solid_srp.cpp</h1>
+  { name: `9. Advanced Patterns / Solid Srp`, path: `advanced_patterns/01_solid_srp.cpp`, dir: `advanced_patterns`, body: `<h1 id="01_solid_srpcpp">01_solid_srp.cpp</h1>
 <pre><code class="language-cpp">/*
  * SINGLE RESPONSIBILITY PRINCIPLE (SRP)
  * First of the SOLID Principles
@@ -4217,7 +3939,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `11. Advanced Patterns / Solid Ocp`, path: `advanced_patterns/02_solid_ocp.cpp`, dir: `advanced_patterns`, body: `<h1 id="02_solid_ocpcpp">02_solid_ocp.cpp</h1>
+  { name: `10. Advanced Patterns / Solid Ocp`, path: `advanced_patterns/02_solid_ocp.cpp`, dir: `advanced_patterns`, body: `<h1 id="02_solid_ocpcpp">02_solid_ocp.cpp</h1>
 <pre><code class="language-cpp">/*
  * OPEN/CLOSED PRINCIPLE (OCP)
  * Second of the SOLID Principles
@@ -4711,7 +4433,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `12. Advanced Patterns / Solid Lsp`, path: `advanced_patterns/03_solid_lsp.cpp`, dir: `advanced_patterns`, body: `<h1 id="03_solid_lspcpp">03_solid_lsp.cpp</h1>
+  { name: `11. Advanced Patterns / Solid Lsp`, path: `advanced_patterns/03_solid_lsp.cpp`, dir: `advanced_patterns`, body: `<h1 id="03_solid_lspcpp">03_solid_lsp.cpp</h1>
 <pre><code class="language-cpp">/*
  * LISKOV SUBSTITUTION PRINCIPLE (LSP)
  * Third of the SOLID Principles
@@ -5154,7 +4876,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `13. Advanced Patterns / Solid Isp`, path: `advanced_patterns/04_solid_isp.cpp`, dir: `advanced_patterns`, body: `<h1 id="04_solid_ispcpp">04_solid_isp.cpp</h1>
+  { name: `12. Advanced Patterns / Solid Isp`, path: `advanced_patterns/04_solid_isp.cpp`, dir: `advanced_patterns`, body: `<h1 id="04_solid_ispcpp">04_solid_isp.cpp</h1>
 <pre><code class="language-cpp">/*
  * INTERFACE SEGREGATION PRINCIPLE (ISP)
  * Fourth of the SOLID Principles
@@ -5620,7 +5342,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `14. Advanced Patterns / Solid Dip`, path: `advanced_patterns/05_solid_dip.cpp`, dir: `advanced_patterns`, body: `<h1 id="05_solid_dipcpp">05_solid_dip.cpp</h1>
+  { name: `13. Advanced Patterns / Solid Dip`, path: `advanced_patterns/05_solid_dip.cpp`, dir: `advanced_patterns`, body: `<h1 id="05_solid_dipcpp">05_solid_dip.cpp</h1>
 <pre><code class="language-cpp">/*
  * DEPENDENCY INVERSION PRINCIPLE (DIP)
  * Fifth of the SOLID Principles
@@ -6028,7 +5750,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `15. Advanced Patterns / Crtp`, path: `advanced_patterns/06_crtp.cpp`, dir: `advanced_patterns`, body: `<h1 id="06_crtpcpp">06_crtp.cpp</h1>
+  { name: `14. Advanced Patterns / Crtp`, path: `advanced_patterns/06_crtp.cpp`, dir: `advanced_patterns`, body: `<h1 id="06_crtpcpp">06_crtp.cpp</h1>
 <pre><code class="language-cpp">/*
  * CRTP - Curiously Recurring Template Pattern
  * 
@@ -6523,7 +6245,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `16. Advanced Patterns / Raii`, path: `advanced_patterns/07_raii.cpp`, dir: `advanced_patterns`, body: `<h1 id="07_raiicpp">07_raii.cpp</h1>
+  { name: `15. Advanced Patterns / Raii`, path: `advanced_patterns/07_raii.cpp`, dir: `advanced_patterns`, body: `<h1 id="07_raiicpp">07_raii.cpp</h1>
 <pre><code class="language-cpp">/*
  * RAII - Resource Acquisition Is Initialization
  * 
@@ -6856,7 +6578,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `17. Advanced Patterns / Pimpl`, path: `advanced_patterns/08_pimpl.cpp`, dir: `advanced_patterns`, body: `<h1 id="08_pimplcpp">08_pimpl.cpp</h1>
+  { name: `16. Advanced Patterns / Pimpl`, path: `advanced_patterns/08_pimpl.cpp`, dir: `advanced_patterns`, body: `<h1 id="08_pimplcpp">08_pimpl.cpp</h1>
 <pre><code class="language-cpp">/*
  * PIMPL - Pointer to Implementation (Compilation Firewall)
  * Also known as: Opaque Pointer, d-pointer, Cheshire Cat
@@ -7217,7 +6939,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `18. Advanced Patterns / Type Erasure`, path: `advanced_patterns/09_type_erasure.cpp`, dir: `advanced_patterns`, body: `<h1 id="09_type_erasurecpp">09_type_erasure.cpp</h1>
+  { name: `17. Advanced Patterns / Type Erasure`, path: `advanced_patterns/09_type_erasure.cpp`, dir: `advanced_patterns`, body: `<h1 id="09_type_erasurecpp">09_type_erasure.cpp</h1>
 <pre><code class="language-cpp">/*
  * TYPE ERASURE
  * 
@@ -7577,7 +7299,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `19. Advanced Patterns / Sfinae`, path: `advanced_patterns/10_sfinae.cpp`, dir: `advanced_patterns`, body: `<h1 id="10_sfinaecpp">10_sfinae.cpp</h1>
+  { name: `18. Advanced Patterns / Sfinae`, path: `advanced_patterns/10_sfinae.cpp`, dir: `advanced_patterns`, body: `<h1 id="10_sfinaecpp">10_sfinae.cpp</h1>
 <pre><code class="language-cpp">/*
  * SFINAE - Substitution Failure Is Not An Error
  * 
@@ -7873,7 +7595,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `20. Advanced Patterns / Null Object`, path: `advanced_patterns/11_null_object.cpp`, dir: `advanced_patterns`, body: `<h1 id="11_null_objectcpp">11_null_object.cpp</h1>
+  { name: `19. Advanced Patterns / Null Object`, path: `advanced_patterns/11_null_object.cpp`, dir: `advanced_patterns`, body: `<h1 id="11_null_objectcpp">11_null_object.cpp</h1>
 <pre><code class="language-cpp">/*
  * NULL OBJECT PATTERN
  * 
@@ -8280,7 +8002,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `21. Advanced Patterns / Object Pool`, path: `advanced_patterns/12_object_pool.cpp`, dir: `advanced_patterns`, body: `<h1 id="12_object_poolcpp">12_object_pool.cpp</h1>
+  { name: `20. Advanced Patterns / Object Pool`, path: `advanced_patterns/12_object_pool.cpp`, dir: `advanced_patterns`, body: `<h1 id="12_object_poolcpp">12_object_pool.cpp</h1>
 <pre><code class="language-cpp">/*
  * OBJECT POOL PATTERN
  * 
@@ -8690,7 +8412,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `22. Advanced Patterns / Policy Based Design`, path: `advanced_patterns/13_policy_based_design.cpp`, dir: `advanced_patterns`, body: `<h1 id="13_policy_based_designcpp">13_policy_based_design.cpp</h1>
+  { name: `21. Advanced Patterns / Policy Based Design`, path: `advanced_patterns/13_policy_based_design.cpp`, dir: `advanced_patterns`, body: `<h1 id="13_policy_based_designcpp">13_policy_based_design.cpp</h1>
 <pre><code class="language-cpp">/*
  * POLICY-BASED DESIGN
  * Also known as: Policy Pattern, Strategy at Compile Time
@@ -9147,7 +8869,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `23. Advanced Patterns`, path: `advanced_patterns/README.md`, dir: `advanced_patterns`, body: `<h1 id="advanced-c-patterns--principles">Advanced C++ Patterns &amp; Principles</h1>
+  { name: `22. Advanced Patterns`, path: `advanced_patterns/README.md`, dir: `advanced_patterns`, body: `<h1 id="advanced-c-patterns--principles">Advanced C++ Patterns &amp; Principles</h1>
 <p>This directory contains advanced patterns and principles that complement the Gang of Four design patterns. These patterns are essential for modern C++ development.</p>
 <h2 id="-contents">📚 Contents</h2>
 <h3 id="solid-principles-5">SOLID Principles (5)</h3>
@@ -9410,7 +9132,7 @@ class Base {
 <strong>Compilation Status:</strong> ✅ All working<br />
 <strong>Documentation:</strong> ✅ Complete  </p>
 <p>Enjoy mastering advanced C++ patterns! 🚀</p>` },
-  { name: `24. Behavioral / Chain Of Responsibility`, path: `behavioral/01_chain_of_responsibility.cpp`, dir: `behavioral`, body: `<h1 id="01_chain_of_responsibilitycpp">01_chain_of_responsibility.cpp</h1>
+  { name: `23. Behavioral / Chain Of Responsibility`, path: `behavioral/01_chain_of_responsibility.cpp`, dir: `behavioral`, body: `<h1 id="01_chain_of_responsibilitycpp">01_chain_of_responsibility.cpp</h1>
 <pre><code class="language-cpp">/*
  * CHAIN OF RESPONSIBILITY PATTERN - Behavioral Pattern
  * 
@@ -9774,7 +9496,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `25. Behavioral / Command`, path: `behavioral/02_command.cpp`, dir: `behavioral`, body: `<h1 id="02_commandcpp">02_command.cpp</h1>
+  { name: `24. Behavioral / Command`, path: `behavioral/02_command.cpp`, dir: `behavioral`, body: `<h1 id="02_commandcpp">02_command.cpp</h1>
 <pre><code class="language-cpp">/*
  * COMMAND PATTERN - Behavioral Pattern
  * 
@@ -10187,7 +9909,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `26. Behavioral / Iterator`, path: `behavioral/03_iterator.cpp`, dir: `behavioral`, body: `<h1 id="03_iteratorcpp">03_iterator.cpp</h1>
+  { name: `25. Behavioral / Iterator`, path: `behavioral/03_iterator.cpp`, dir: `behavioral`, body: `<h1 id="03_iteratorcpp">03_iterator.cpp</h1>
 <pre><code class="language-cpp">/*
  * ITERATOR PATTERN - Behavioral Pattern
  * 
@@ -10634,7 +10356,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `27. Behavioral / Mediator`, path: `behavioral/04_mediator.cpp`, dir: `behavioral`, body: `<h1 id="04_mediatorcpp">04_mediator.cpp</h1>
+  { name: `26. Behavioral / Mediator`, path: `behavioral/04_mediator.cpp`, dir: `behavioral`, body: `<h1 id="04_mediatorcpp">04_mediator.cpp</h1>
 <pre><code class="language-cpp">/*
  * MEDIATOR PATTERN - Behavioral Pattern
  * 
@@ -11065,7 +10787,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `28. Behavioral / Memento`, path: `behavioral/05_memento.cpp`, dir: `behavioral`, body: `<h1 id="05_mementocpp">05_memento.cpp</h1>
+  { name: `27. Behavioral / Memento`, path: `behavioral/05_memento.cpp`, dir: `behavioral`, body: `<h1 id="05_mementocpp">05_memento.cpp</h1>
 <pre><code class="language-cpp">/*
  * MEMENTO PATTERN - Behavioral Pattern
  * 
@@ -11508,7 +11230,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `29. Behavioral / Observer`, path: `behavioral/06_observer.cpp`, dir: `behavioral`, body: `<h1 id="06_observercpp">06_observer.cpp</h1>
+  { name: `28. Behavioral / Observer`, path: `behavioral/06_observer.cpp`, dir: `behavioral`, body: `<h1 id="06_observercpp">06_observer.cpp</h1>
 <pre><code class="language-cpp">/*
  * OBSERVER PATTERN - Behavioral Pattern
  * 
@@ -11879,7 +11601,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `30. Behavioral / State`, path: `behavioral/07_state.cpp`, dir: `behavioral`, body: `<h1 id="07_statecpp">07_state.cpp</h1>
+  { name: `29. Behavioral / State`, path: `behavioral/07_state.cpp`, dir: `behavioral`, body: `<h1 id="07_statecpp">07_state.cpp</h1>
 <pre><code class="language-cpp">/*
  * STATE PATTERN - Behavioral Pattern
  * 
@@ -12378,7 +12100,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `31. Behavioral / Strategy`, path: `behavioral/08_strategy.cpp`, dir: `behavioral`, body: `<h1 id="08_strategycpp">08_strategy.cpp</h1>
+  { name: `30. Behavioral / Strategy`, path: `behavioral/08_strategy.cpp`, dir: `behavioral`, body: `<h1 id="08_strategycpp">08_strategy.cpp</h1>
 <pre><code class="language-cpp">/*
  * STRATEGY PATTERN - Behavioral Pattern
  * 
@@ -12824,7 +12546,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `32. Behavioral / Template Method`, path: `behavioral/09_template_method.cpp`, dir: `behavioral`, body: `<h1 id="09_template_methodcpp">09_template_method.cpp</h1>
+  { name: `31. Behavioral / Template Method`, path: `behavioral/09_template_method.cpp`, dir: `behavioral`, body: `<h1 id="09_template_methodcpp">09_template_method.cpp</h1>
 <pre><code class="language-cpp">/*
  * TEMPLATE METHOD PATTERN - Behavioral Pattern
  * 
@@ -13324,7 +13046,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `33. Behavioral / Visitor`, path: `behavioral/10_visitor.cpp`, dir: `behavioral`, body: `<h1 id="10_visitorcpp">10_visitor.cpp</h1>
+  { name: `32. Behavioral / Visitor`, path: `behavioral/10_visitor.cpp`, dir: `behavioral`, body: `<h1 id="10_visitorcpp">10_visitor.cpp</h1>
 <pre><code class="language-cpp">/*
  * VISITOR PATTERN - Behavioral Pattern
  * 
@@ -13794,7 +13516,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `34. Behavioral / Interpreter`, path: `behavioral/11_interpreter.cpp`, dir: `behavioral`, body: `<h1 id="11_interpretercpp">11_interpreter.cpp</h1>
+  { name: `33. Behavioral / Interpreter`, path: `behavioral/11_interpreter.cpp`, dir: `behavioral`, body: `<h1 id="11_interpretercpp">11_interpreter.cpp</h1>
 <pre><code class="language-cpp">/*
  * INTERPRETER PATTERN - Behavioral Pattern
  * 
@@ -14300,7 +14022,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `35. Behavioral / Iterator Types`, path: `behavioral/12_iterator_types.cpp`, dir: `behavioral`, body: `<h1 id="12_iterator_typescpp">12_iterator_types.cpp</h1>
+  { name: `34. Behavioral / Iterator Types`, path: `behavioral/12_iterator_types.cpp`, dir: `behavioral`, body: `<h1 id="12_iterator_typescpp">12_iterator_types.cpp</h1>
 <pre><code class="language-cpp">/*
  * C++ ITERATOR TYPES - Comprehensive Guide
  * 
@@ -14863,7 +14585,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `36. Compiler Optimizations / Rvo Nrvo`, path: `compiler_optimizations/01_rvo_nrvo.cpp`, dir: `compiler_optimizations`, body: `<h1 id="01_rvo_nrvocpp">01_rvo_nrvo.cpp</h1>
+  { name: `35. Compiler Optimizations / Rvo Nrvo`, path: `compiler_optimizations/01_rvo_nrvo.cpp`, dir: `compiler_optimizations`, body: `<h1 id="01_rvo_nrvocpp">01_rvo_nrvo.cpp</h1>
 <pre><code class="language-cpp">/*
  * RVO &amp; NRVO - Return Value Optimization &amp; Named Return Value Optimization
  * 
@@ -15138,7 +14860,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `37. Compiler Optimizations / Copy Elision`, path: `compiler_optimizations/02_copy_elision.cpp`, dir: `compiler_optimizations`, body: `<h1 id="02_copy_elisioncpp">02_copy_elision.cpp</h1>
+  { name: `36. Compiler Optimizations / Copy Elision`, path: `compiler_optimizations/02_copy_elision.cpp`, dir: `compiler_optimizations`, body: `<h1 id="02_copy_elisioncpp">02_copy_elision.cpp</h1>
 <pre><code class="language-cpp">/*
  * COPY ELISION - Compiler Optimization
  * 
@@ -15403,7 +15125,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `38. Compiler Optimizations / Small String Optimization`, path: `compiler_optimizations/03_small_string_optimization.cpp`, dir: `compiler_optimizations`, body: `<h1 id="03_small_string_optimizationcpp">03_small_string_optimization.cpp</h1>
+  { name: `37. Compiler Optimizations / Small String Optimization`, path: `compiler_optimizations/03_small_string_optimization.cpp`, dir: `compiler_optimizations`, body: `<h1 id="03_small_string_optimizationcpp">03_small_string_optimization.cpp</h1>
 <pre><code class="language-cpp">/*
  * SMALL STRING OPTIMIZATION (SSO)
  * 
@@ -15688,7 +15410,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `39. Compiler Optimizations / Empty Base Optimization`, path: `compiler_optimizations/04_empty_base_optimization.cpp`, dir: `compiler_optimizations`, body: `<h1 id="04_empty_base_optimizationcpp">04_empty_base_optimization.cpp</h1>
+  { name: `38. Compiler Optimizations / Empty Base Optimization`, path: `compiler_optimizations/04_empty_base_optimization.cpp`, dir: `compiler_optimizations`, body: `<h1 id="04_empty_base_optimizationcpp">04_empty_base_optimization.cpp</h1>
 <pre><code class="language-cpp">/*
  * EMPTY BASE OPTIMIZATION (EBO)
  * 
@@ -15759,7 +15481,7 @@ int main() {
 }
 
 </code></pre>` },
-  { name: `40. Compiler Optimizations / Function Inlining`, path: `compiler_optimizations/05_function_inlining.cpp`, dir: `compiler_optimizations`, body: `<h1 id="05_function_inliningcpp">05_function_inlining.cpp</h1>
+  { name: `39. Compiler Optimizations / Function Inlining`, path: `compiler_optimizations/05_function_inlining.cpp`, dir: `compiler_optimizations`, body: `<h1 id="05_function_inliningcpp">05_function_inlining.cpp</h1>
 <pre><code class="language-cpp">/*
  * FUNCTION INLINING
  * 
@@ -16052,7 +15774,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `41. Compiler Optimizations / Loop Optimizations`, path: `compiler_optimizations/06_loop_optimizations.cpp`, dir: `compiler_optimizations`, body: `<h1 id="06_loop_optimizationscpp">06_loop_optimizations.cpp</h1>
+  { name: `40. Compiler Optimizations / Loop Optimizations`, path: `compiler_optimizations/06_loop_optimizations.cpp`, dir: `compiler_optimizations`, body: `<h1 id="06_loop_optimizationscpp">06_loop_optimizations.cpp</h1>
 <pre><code class="language-cpp">/*
  * LOOP OPTIMIZATIONS
  * 
@@ -16353,7 +16075,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `42. Compiler Optimizations / Devirtualization`, path: `compiler_optimizations/07_devirtualization.cpp`, dir: `compiler_optimizations`, body: `<h1 id="07_devirtualizationcpp">07_devirtualization.cpp</h1>
+  { name: `41. Compiler Optimizations / Devirtualization`, path: `compiler_optimizations/07_devirtualization.cpp`, dir: `compiler_optimizations`, body: `<h1 id="07_devirtualizationcpp">07_devirtualization.cpp</h1>
 <pre><code class="language-cpp">/*
  * DEVIRTUALIZATION
  * 
@@ -16657,7 +16379,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `43. Compiler Optimizations / Constant Folding`, path: `compiler_optimizations/08_constant_folding.cpp`, dir: `compiler_optimizations`, body: `<h1 id="08_constant_foldingcpp">08_constant_folding.cpp</h1>
+  { name: `42. Compiler Optimizations / Constant Folding`, path: `compiler_optimizations/08_constant_folding.cpp`, dir: `compiler_optimizations`, body: `<h1 id="08_constant_foldingcpp">08_constant_folding.cpp</h1>
 <pre><code class="language-cpp">/*
  * CONSTANT FOLDING &amp; COMPILE-TIME OPTIMIZATIONS
  * 
@@ -16986,7 +16708,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `44. Compiler Optimizations / Tail Call Optimization`, path: `compiler_optimizations/09_tail_call_optimization.cpp`, dir: `compiler_optimizations`, body: `<h1 id="09_tail_call_optimizationcpp">09_tail_call_optimization.cpp</h1>
+  { name: `43. Compiler Optimizations / Tail Call Optimization`, path: `compiler_optimizations/09_tail_call_optimization.cpp`, dir: `compiler_optimizations`, body: `<h1 id="09_tail_call_optimizationcpp">09_tail_call_optimization.cpp</h1>
 <pre><code class="language-cpp">/*
  * TAIL CALL OPTIMIZATION (TCO)
  * Also known as: Tail Call Elimination
@@ -17285,7 +17007,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `45. Compiler Optimizations / Complete Optimization Guide`, path: `compiler_optimizations/COMPLETE_OPTIMIZATION_GUIDE.md`, dir: `compiler_optimizations`, body: `<h1 id="complete-compiler-optimization-guide">Complete Compiler Optimization Guide</h1>
+  { name: `44. Compiler Optimizations / Complete Optimization Guide`, path: `compiler_optimizations/COMPLETE_OPTIMIZATION_GUIDE.md`, dir: `compiler_optimizations`, body: `<h1 id="complete-compiler-optimization-guide">Complete Compiler Optimization Guide</h1>
 <h2 id="-covered-in-this-collection-9">✅ Covered in This Collection (9)</h2>
 <h3 id="1-rvonrvo---return-value-optimization-">1. <strong>RVO/NRVO</strong> - Return Value Optimization ⭐</h3>
 <ul>
@@ -17678,7 +17400,7 @@ class NoInheritance {
 4. Apply appropriate optimizations
 5. Measure improvements</p>
 <p><strong>Remember:</strong> Premature optimization is the root of all evil. Profile first, optimize second!</p>` },
-  { name: `46. Compiler Optimizations / Optimizations List`, path: `compiler_optimizations/OPTIMIZATIONS_LIST.md`, dir: `compiler_optimizations`, body: `<h1 id="compiler-optimizations-complete-list">Compiler Optimizations Complete List</h1>
+  { name: `45. Compiler Optimizations / Optimizations List`, path: `compiler_optimizations/OPTIMIZATIONS_LIST.md`, dir: `compiler_optimizations`, body: `<h1 id="compiler-optimizations-complete-list">Compiler Optimizations Complete List</h1>
 <h2 id="-all-8-compiler-optimization-techniques">✅ All 8 Compiler Optimization Techniques</h2>
 <h3 id="1-rvonrvo---return-value-optimization">1. <strong>RVO/NRVO</strong> - Return Value Optimization</h3>
 <ul>
@@ -17942,7 +17664,7 @@ for (int i = 0; i &lt; n; ++i) {
 <strong>Total Examples</strong>: ~2,000 lines<br />
 <strong>Status</strong>: ✅ All working and tested<br />
 <strong>Performance Impact</strong>: 2-10x typical improvements</p>` },
-  { name: `47. Compiler Optimizations`, path: `compiler_optimizations/README.md`, dir: `compiler_optimizations`, body: `<h1 id="-compiler-optimizations-in-c">🚀 Compiler Optimizations in C++</h1>
+  { name: `46. Compiler Optimizations`, path: `compiler_optimizations/README.md`, dir: `compiler_optimizations`, body: `<h1 id="-compiler-optimizations-in-c">🚀 Compiler Optimizations in C++</h1>
 <p>This directory demonstrates various compiler optimizations that modern C++ compilers perform to generate efficient code.</p>
 <h2 id="-contents">📚 Contents</h2>
 <h3 id="01-rvo--nrvo---return-value-optimization">01. <strong>RVO &amp; NRVO</strong> - Return Value Optimization</h3>
@@ -18266,7 +17988,7 @@ Total:                    16 bytes (no overhead!)
 <strong>Status</strong>: ✅ All working<br />
 <strong>Impact</strong>: 3-10x performance improvements typical</p>
 <p>Happy optimizing! 🚀</p>` },
-  { name: `48. Creational / Singleton`, path: `creational/01_singleton.cpp`, dir: `creational`, body: `<h1 id="01_singletoncpp">01_singleton.cpp</h1>
+  { name: `47. Creational / Singleton`, path: `creational/01_singleton.cpp`, dir: `creational`, body: `<h1 id="01_singletoncpp">01_singleton.cpp</h1>
 <pre><code class="language-cpp">/*
  * SINGLETON PATTERN - Creational Pattern
  * 
@@ -18449,7 +18171,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `49. Creational / Factory Method`, path: `creational/02_factory_method.cpp`, dir: `creational`, body: `<h1 id="02_factory_methodcpp">02_factory_method.cpp</h1>
+  { name: `48. Creational / Factory Method`, path: `creational/02_factory_method.cpp`, dir: `creational`, body: `<h1 id="02_factory_methodcpp">02_factory_method.cpp</h1>
 <pre><code class="language-cpp">/*
  * FACTORY METHOD PATTERN - Creational Pattern
  * 
@@ -18717,7 +18439,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `50. Creational / Abstract Factory`, path: `creational/03_abstract_factory.cpp`, dir: `creational`, body: `<h1 id="03_abstract_factorycpp">03_abstract_factory.cpp</h1>
+  { name: `49. Creational / Abstract Factory`, path: `creational/03_abstract_factory.cpp`, dir: `creational`, body: `<h1 id="03_abstract_factorycpp">03_abstract_factory.cpp</h1>
 <pre><code class="language-cpp">/*
  * ABSTRACT FACTORY PATTERN - Creational Pattern
  * 
@@ -19015,7 +18737,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `51. Creational / Builder`, path: `creational/04_builder.cpp`, dir: `creational`, body: `<h1 id="04_buildercpp">04_builder.cpp</h1>
+  { name: `50. Creational / Builder`, path: `creational/04_builder.cpp`, dir: `creational`, body: `<h1 id="04_buildercpp">04_builder.cpp</h1>
 <pre><code class="language-cpp">/*
  * BUILDER PATTERN - Creational Pattern
  * 
@@ -19377,7 +19099,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `52. Creational / Prototype`, path: `creational/05_prototype.cpp`, dir: `creational`, body: `<h1 id="05_prototypecpp">05_prototype.cpp</h1>
+  { name: `51. Creational / Prototype`, path: `creational/05_prototype.cpp`, dir: `creational`, body: `<h1 id="05_prototypecpp">05_prototype.cpp</h1>
 <pre><code class="language-cpp">/*
  * PROTOTYPE PATTERN - Creational Pattern
  * 
@@ -19710,7 +19432,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `53. Structural / Adapter`, path: `structural/01_adapter.cpp`, dir: `structural`, body: `<h1 id="01_adaptercpp">01_adapter.cpp</h1>
+  { name: `52. Structural / Adapter`, path: `structural/01_adapter.cpp`, dir: `structural`, body: `<h1 id="01_adaptercpp">01_adapter.cpp</h1>
 <pre><code class="language-cpp">/*
  * ADAPTER PATTERN - Structural Pattern
  * 
@@ -19996,7 +19718,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `54. Structural / Bridge`, path: `structural/02_bridge.cpp`, dir: `structural`, body: `<h1 id="02_bridgecpp">02_bridge.cpp</h1>
+  { name: `53. Structural / Bridge`, path: `structural/02_bridge.cpp`, dir: `structural`, body: `<h1 id="02_bridgecpp">02_bridge.cpp</h1>
 <pre><code class="language-cpp">/*
  * BRIDGE PATTERN - Structural Pattern
  * 
@@ -20414,7 +20136,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `55. Structural / Composite`, path: `structural/03_composite.cpp`, dir: `structural`, body: `<h1 id="03_compositecpp">03_composite.cpp</h1>
+  { name: `54. Structural / Composite`, path: `structural/03_composite.cpp`, dir: `structural`, body: `<h1 id="03_compositecpp">03_composite.cpp</h1>
 <pre><code class="language-cpp">/*
  * COMPOSITE PATTERN - Structural Pattern
  * 
@@ -20812,7 +20534,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `56. Structural / Decorator`, path: `structural/04_decorator.cpp`, dir: `structural`, body: `<h1 id="04_decoratorcpp">04_decorator.cpp</h1>
+  { name: `55. Structural / Decorator`, path: `structural/04_decorator.cpp`, dir: `structural`, body: `<h1 id="04_decoratorcpp">04_decorator.cpp</h1>
 <pre><code class="language-cpp">/*
  * DECORATOR PATTERN - Structural Pattern
  * 
@@ -21237,7 +20959,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `57. Structural / Facade`, path: `structural/05_facade.cpp`, dir: `structural`, body: `<h1 id="05_facadecpp">05_facade.cpp</h1>
+  { name: `56. Structural / Facade`, path: `structural/05_facade.cpp`, dir: `structural`, body: `<h1 id="05_facadecpp">05_facade.cpp</h1>
 <pre><code class="language-cpp">/*
  * FACADE PATTERN - Structural Pattern
  * 
@@ -21614,7 +21336,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `58. Structural / Flyweight`, path: `structural/06_flyweight.cpp`, dir: `structural`, body: `<h1 id="06_flyweightcpp">06_flyweight.cpp</h1>
+  { name: `57. Structural / Flyweight`, path: `structural/06_flyweight.cpp`, dir: `structural`, body: `<h1 id="06_flyweightcpp">06_flyweight.cpp</h1>
 <pre><code class="language-cpp">/*
  * FLYWEIGHT PATTERN - Structural Pattern
  * 
@@ -22012,7 +21734,7 @@ int main() {
 
 
 </code></pre>` },
-  { name: `59. Structural / Proxy`, path: `structural/07_proxy.cpp`, dir: `structural`, body: `<h1 id="07_proxycpp">07_proxy.cpp</h1>
+  { name: `58. Structural / Proxy`, path: `structural/07_proxy.cpp`, dir: `structural`, body: `<h1 id="07_proxycpp">07_proxy.cpp</h1>
 <pre><code class="language-cpp">/*
  * PROXY PATTERN - Structural Pattern
  * 
